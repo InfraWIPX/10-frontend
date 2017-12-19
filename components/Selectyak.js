@@ -8,6 +8,8 @@ const Box = styled.div`
     /* height: 50%; */
     /* min-height: 272px; */
     height: 50vh;
+    padding-right: 0px;
+    padding-left: 0px;
 `
 const Text = styled.h3`
     padding-right:10%;
