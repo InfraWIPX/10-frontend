@@ -16,8 +16,8 @@ const Index = () => (
 	<div className ="container-fluid" >      
     <div className="row">
 	<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-	<center><img src="../static/image/Logo WIP Camp 10 SVG.svg"  style={{width:'50%',marginTop:'15%'}} className="img-center"/></center>		
-		<center><Button style={{width:'7%',marginTop:'1%'}}>ถัดไป</Button></center>     
+	 <center><img src="../static/image/Logo WIP Camp 10 SVG.svg"  style={{width:'50%',marginTop:'15%'}} className="img-center"/></center>		
+	<center><Link href="/"><a><Button style={{width:'7%',marginTop:'1%'}}>ถัดไป</Button></a></Link></center>
       </div>
 	</div></div>
 )
