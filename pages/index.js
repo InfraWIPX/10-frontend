@@ -8,6 +8,6 @@ import Nav from '../components/nav'
 
 export default () => (
   <div>
-    <Link href="/home">NEXT</Link>
+    <Link href="/select">NEXT</Link>
   </div>
 )
