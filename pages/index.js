@@ -7,7 +7,7 @@ import Nav from '../components/nav'
 
 
 export default () => (
-  <div className="bgHome">
-     <p>Test</p>
+  <div>
+    <Link href="/home">NEXT</Link>
   </div>
 )
