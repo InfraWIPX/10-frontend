@@ -16,6 +16,7 @@ export default class MyDocument extends Document {
           <style>{`body { margin: 0 } /* custom! */`}</style>
           <link rel="stylesheet" href="/static/css/bootstrap.min.css"/>
           <link rel="stylesheet" href="/static/css/index.css"/>
+          <link rel= "stylesheet" href = "../static/css/wide.css"/>
         </Head>
         <body className="custom_class bgHome">
           {this.props.customValue}
