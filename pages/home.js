@@ -46,7 +46,7 @@ const home =()=> (
             }
         </div> */}
         
-        <div className="row">
+        <div className="row" height="100% !important">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <Selectling/>
             </div>

@@ -4,10 +4,10 @@ import styled from 'styled-components'
 
 const Box = styled.div`
     background-color: blue;
-    width: 100%;
-    height: 50%;
-    min-height: 272px;
-    height: 100%;
+    width: 100vw;
+    /* height: 50%; */
+    /* min-height: 272px; */
+    height: 50vh;
 `
 const Text = styled.h3`
     padding-right:10%;

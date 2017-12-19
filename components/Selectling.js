@@ -4,9 +4,9 @@ import styled from 'styled-components'
 
 const Box = styled.div`
     background-color: red;
-    width: 100%;
-    min-height: 290px;
-    height: 100%;
+    width: 100vw;
+    /* min-height: 290px; */
+    height: 50vh;
 `
 const Text = styled.h3`
     padding-right:10%;
@@ -29,6 +29,7 @@ const Select =()=> (
                 <Choose>เลือก</Choose>
             </Box>
         </Link>
+        
     </div>
 )
 export default Select;
