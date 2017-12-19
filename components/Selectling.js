@@ -1,13 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
+import Box1 from '../components/boxling'
 
-const Box = styled.div`
-    background-color: red;
-    width: 100%;
-    height: 50%;
-    max-height: 100%;
-`
 const Text = styled.h3`
     padding-right:10%;
     padding-top: 5%;
@@ -24,10 +19,11 @@ const Choose = styled.h5`
 const Select =()=> (
     <div>
         <Link href="/whatling">    
-            <Box>
+            <Box1>
+                
                 <Text>ทีมพี่ลิง</Text>
                 <Choose>เลือก</Choose>
-            </Box>
+            </Box1>
         </Link>
     </div>
 )
