@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import Selectling from '../components/Selectling'
-import Selectyak from '../components/Selectyak'
+import Selectling from '../components/Character/Selectling'
+import Selectyak from '../components/Character/Selectyak'
 import styled from 'styled-components'
+
 const Div = styled.div`
   width: 100vw;
   height: 100vh;
