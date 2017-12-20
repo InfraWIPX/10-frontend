@@ -6,6 +6,6 @@ import HomeIntro from '../pages/HomeIntro'
 
 
 const Index = () => (
-	<HomeIntro></HomeIntro>
+	<HomeIntro/>
 )
 export default Index
