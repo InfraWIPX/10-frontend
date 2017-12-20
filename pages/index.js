@@ -7,7 +7,9 @@ import HomeIntro from '../pages/HomeIntro'
 
 const Index = () => (
 	<div>
+	
 	<HomeIntro/>
+	
 	</div>
 )
 
