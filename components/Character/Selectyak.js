@@ -8,6 +8,7 @@ const Box = styled.div`
     width: 100%;
     height: 50vh;
     max-height: 100%;
+    
 `
 const Text = styled.h3`
     padding-right: 20%;
