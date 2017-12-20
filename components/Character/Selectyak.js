@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
-import Bar from '../components/Bar'
+import Scorebar from './Scorebar'
 
 const Box = styled.div`
     background-color: blue;
@@ -10,26 +10,29 @@ const Box = styled.div`
     max-height: 100%;
 `
 const Text = styled.h3`
-    padding-right:10%;
-    padding-left:10%;
-    padding-top: 8%;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 5%;
     padding-bottom:0px;
-    
-    `
+    @media (max-width: 576px) {
+        font-size: 4rem;
+    }    
+`
 const Choose = styled.h5`
     padding-top:0px;
-    padding-left:10%;
-    /* padding-bottom:2%; */
-    
+    padding-left:20%;
+    @media (max-width: 576px) {
+        font-size: 3rem;
+    }    
 `
 
 const Select =()=> (
     <div>
         
-        <Link href="/whatyak">
+        <Link href="/what-y">
             <Box>
             <h1 className><center>เลือกตัวละคร</center></h1>
-         <Bar></Bar>
+         <Scorebar/>
                 <Text>ทีมพี่ยักษ์</Text>
                 <Choose>เลือก</Choose>        
             </Box>         
