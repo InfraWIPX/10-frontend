@@ -1,13 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
+import Bar from '../components/Bar'
 
 const Box = styled.div`
     background-color: blue;
     width: 100%;
     height: 50%;
-    min-height: 272px;
-    height: 100%;
+    max-height: 100%;
 `
 const Text = styled.h3`
     padding-right:10%;
@@ -25,16 +25,14 @@ const Choose = styled.h5`
 
 const Select =()=> (
     <div>
-        <Link href="/whatyak">    
+        
+        <Link href="/whatyak">
             <Box>
             <h1 className><center>เลือกตัวละคร</center></h1>
-                <div className="container progress wide"> 
-                    <div className="progress-bar bg-warning" role="progressbar" style={{width: '50%'}}>50%</div>
-                    <div className="progress-bar bg-danger" role="progressbar" style={{width: '50%'}}>50%</div>
-                </div>
+         <Bar></Bar>
                 <Text>ทีมพี่ยักษ์</Text>
-                <Choose>เลือก</Choose>
-            </Box>
+                <Choose>เลือก</Choose>        
+            </Box>         
         </Link>
     </div>
 )
