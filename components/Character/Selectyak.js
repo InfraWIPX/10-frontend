@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 import Scorebar from './Scorebar'
+import Yak from './Yak'
 
 const Box = styled.div`
     background-color: blue;
@@ -36,7 +37,7 @@ const Select =()=> (
          <Scorebar/>
                 <Text>ทีมพี่ยักษ์</Text>
                 <Choose>เลือก</Choose>  
-                 <img src="../../static/image/สำเนาของ yak.svg" style={{width:'15%',margin:'0%',marginTop:'-13%',marginLeft:'75%'}}/>    
+                <Yak/>
             </Box>         
         </Link>
     </div>

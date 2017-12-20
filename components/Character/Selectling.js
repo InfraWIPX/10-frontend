@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
-
+import Ling from './Ling'
 
 const Box = styled.div`
     background-color: red;
@@ -34,8 +34,8 @@ const Select =()=> (
         <Link href="/what-l">    
             <Box>
                 <Text>ทีมพี่ลิง</Text>
-                <Choose>เลือก</Choose>               
-                <img src="../../static/image/สำเนาของ hanuman.svg"style={{width:'15%',margin:'0%',marginTop:'-22%',marginLeft:'10%'}}/>
+                <Choose>เลือก</Choose>  
+                <Ling/>             
             </Box>
         </Link>
     </div>
