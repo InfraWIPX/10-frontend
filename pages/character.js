@@ -4,6 +4,7 @@ import Selectling from '../components/Character/Selectling'
 import Selectyak from '../components/Character/Selectyak'
 import styled from 'styled-components'
 import MoveToLeft from '../components/PageTransition/MoveToLeft'
+import Bg from '../components/Bg'
 
 const Div = styled.div`
   width: 100vw;
@@ -14,7 +15,7 @@ const Fit = styled.div`
   padding-left: 0px;
 `
 const Index = ()=> (
-<body className="bgHome">
+<Bg>
 <MoveToLeft>
 <div className ="container-fluid">      
     <Div className="row">
@@ -25,10 +26,9 @@ const Index = ()=> (
         <Selectling/>      
       </Fit>
     </Div>
-  
 </div>
 </MoveToLeft>
-</body>
+</Bg>
 )
 
 export default Index

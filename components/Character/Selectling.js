@@ -12,16 +12,8 @@ const Box = styled.div`
     max-height: 100%
     
 `
-const Text = styled.h3`
-    padding-right:20%;
-    padding-top: 5%;
-    padding-bottom:0px;
-    text-align: right;
-    @media (max-width: 576px) {
-        font-size: 4rem;
-    }
-`
 const Choose = styled.h5`
+    font-family: 'My custom family';
     color : #FFA644;
     padding-top:0px;
     padding-right:20%;
