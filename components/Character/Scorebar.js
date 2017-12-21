@@ -16,9 +16,24 @@ const Head = styled.div`
     margin-top: 1%;
 `
 
+const ImgL = styled.img`
+    width: 500px;
+    height: 80%;
+    display: flex;
+    position: absolute;
+    margin-left: 4.5%;
+    margin-top: -1.5%;
+    ${props => props.primary && `
+        margin-left: 56%;
+        margin-top: -1.5%;
+    `}
+`
+
 const Scorebar = () => (
     <Head>
         <SelectChar><center>เลือกตัวละคร</center></SelectChar>
+        <ImgL src="/static/image/hanumanscore-01.svg"/>
+        <ImgL primary src="/static/image/yakscore-01.svg"/>
         <div className="container progress wide"> 
             <Scoreyak/>
             <Scoreling/>
