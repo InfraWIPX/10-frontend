@@ -8,7 +8,6 @@ const Button = styled.button`
     color: #FFA644;
     border: 2px solid  #FFA644;
     font-size: 2vw;
-    font-family: Niramit;
     &:hover {
         background-color: #FFA644; 
         color: #002D40;

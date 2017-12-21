@@ -31,7 +31,6 @@ const Choose = styled.h5`
     }    
 `
 const SelectChar = styled.h1`
-    font-family: "Niramit";
     color : #FFA644;
 `
 

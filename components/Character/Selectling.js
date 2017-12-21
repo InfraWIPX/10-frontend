@@ -22,7 +22,6 @@ const Text = styled.h3`
     }
 `
 const Choose = styled.h5`
-    font-family: "Niramit";
     color : #FFA644;
     padding-top:0px;
     padding-right:20%;
