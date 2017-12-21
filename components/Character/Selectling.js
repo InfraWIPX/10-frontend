@@ -14,9 +14,8 @@ const Box = styled.div`
         height: 50vh;
     }
 `
-
 const Choose = styled.h5`
-    font-family: "Niramit";
+    font-family: 'My custom family';
     color : #FFA644;
     padding-top:0px;
     padding-right:0%;

@@ -25,7 +25,7 @@ const Box = styled.div`
 `
 
 const Choose = styled.h5`
-    font-family: "Niramit";
+    font-family: 'my custom family';
     color : #FFA644;
     padding-top:0px;
     padding-left:10%;
@@ -41,7 +41,7 @@ const Select =()=> (
         <Link href="/what-y">
             {/* <Bgyak> */}
                 <Box>
-                    <Img opacity="0.1">
+                    <Img>
                         <Teamyak/>
                         <Choose>เลือก</Choose>  
                         <Yak/>
