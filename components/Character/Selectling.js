@@ -3,6 +3,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 import Ling from './Ling'
 import Teamling from './Teamling'
+import Bgling from './Bgling'
 
 const Box = styled.div`
     background-color:transparent;
@@ -35,13 +36,13 @@ const Choose = styled.h5`
 const Select =()=> (
     <div>
         <Link href="/what-l">
-        <body className="bgLing">    
+        <Bgling>   
             <Box>
                 <Teamling/>
                 <Choose>เลือก</Choose>  
                 <Ling/>             
             </Box>
-            </body>
+            </Bgling>
         </Link>
     </div>
 )

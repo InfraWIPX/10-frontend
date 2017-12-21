@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Scorebar from './Scorebar'
 import Yak from './Yak'
 import Teamyak from './Teamyak'
+import Bgyak from './Bgyak'
 
 const Box = styled.div`
     background-color:transparent;
@@ -37,7 +38,7 @@ const SelectChar = styled.h1`
 const Select =()=> (
     <div>
         <Link href="/what-y">
-            <body className="bgYak">
+            <Bgyak>
             <Box>
             <SelectChar><center>เลือกตัวละคร</center></SelectChar>
          <Scorebar/>
@@ -45,7 +46,7 @@ const Select =()=> (
                 <Choose>เลือก</Choose>  
                 <Yak/>
             </Box> 
-            </body>        
+            </Bgyak>        
         </Link>
     </div>
 )
