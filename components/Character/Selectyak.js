@@ -1,47 +1,53 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
-import Scorebar from './Scorebar'
+
 import Yak from './Yak'
 import Teamyak from './Teamyak'
-import Bgyak from './Bgyak'
+
+const Img = styled.div`
+    background-image: url(../../static/image/bbg2.svg);
+    width: 100%;
+    height: 100vh;
+    @media (max-width: 720px) {
+        height: 50vh;
+    }
+`
 
 const Box = styled.div`
-    background-color:transparent;
+    background-color: #295949;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     max-height: 100%;
+    @media (max-width: 720px) {
+        height: 50vh;
+    }
 `
-const Text = styled.h3`
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-top: 5%;
-    padding-bottom:0px;
 
-`
 const Choose = styled.h5`
     font-family: "Niramit";
     color : #FFA644;
     padding-top:0px;
-    padding-left:20%;
-`
-const SelectChar = styled.h1`
-    font-family: "Niramit";
-    color : #FFA644;
+    padding-left:10%;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 54%;
+
 `
 
 const Select =()=> (
     <div>
         <Link href="/what-y">
-            <Bgyak>
-            <Box>
-            <SelectChar><center>เลือกตัวละคร</center></SelectChar>
-         <Scorebar/>
-                <Teamyak/>
-                <Choose>เลือก</Choose>  
-                <Yak/>
-            </Box> 
-            </Bgyak>        
+            {/* <Bgyak> */}
+                <Box>
+                    <Img opacity="0.1">
+                        <Teamyak/>
+                        <Choose>เลือก</Choose>  
+                        <Yak/>
+                    </Img>
+                </Box> 
+            {/* </Bgyak>         */}
         </Link>
     </div>
 )
