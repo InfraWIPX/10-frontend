@@ -3,19 +3,28 @@ import '../global-style'
 
 const Button = styled.button`
     font-family: 'My custom family';
-    border-radius: 3px;
-    padding: 0.5em ;
-    background-color: transparent;
-    color: #FFA644;
-    border: 2px solid  #FFA644;
+    display: inline-block;
     font-size: 2vw;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 0.5em ;
+    background-color: #998A2F;
+    color: #002d40;
+    border: none;
     transition:all 350ms ease-in-out;
     &:hover {
-        background-color: #FFA644; 
-        color: #002D40;
-        transition:scale(1.6);
-        cursor:pointer;	
-        border:0px;
+        box-shadow:  1vh 0.9vh 0vh #999 ;
+        background-color: #E4943B; 
+        transition:scale(1.1);
+        width: 20%;
+    }
+    &:active{
+        background-color: #E4943B;
+        box-shadow: 0 0.5vh #666;
+        transform: translateY(0.4vh);
     }
 
 `;
