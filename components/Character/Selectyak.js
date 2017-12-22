@@ -6,7 +6,7 @@ import Yak from './Yak'
 import Teamyak from './Teamyak'
 
 const Img = styled.div`
-    background-image: url(../../static/image/bbg2.svg);
+    background-image: url('../../static/image/kanok.svg');
     width: 100%;
     height: 100vh;
     @media (max-width: 720px) {
