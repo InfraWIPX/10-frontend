@@ -27,6 +27,28 @@ const ImgL = styled.img`
         margin-left: 56%;
         margin-top: -1.5%;
     `}
+
+    @media (max-width:720px) {
+        width: 200px;
+        height: 50%;
+        margin-left: 0.5%;
+        margin-top: -2%;
+        ${props => props.primary && `
+            margin-left: 46.5%;
+            margin-top: -2%;
+    `}    
+    }
+
+    @media (max-width:400px) {
+        width: 200px;
+        height: 50%;
+        margin-left: 0.5%;
+        margin-top: -2%;
+        ${props => props.primary && `
+            margin-left: 46.5%;
+            margin-top: -2%;
+    `}    
+    }
 `
 
 const Scorebar = () => (
