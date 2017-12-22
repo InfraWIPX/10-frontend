@@ -1,42 +1,58 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
+
 import Ling from './Ling'
+import Teamling from './Teamling'
+
+const Img = styled.div`
+    background-image: url('../../static/image/kanok.svg');
+    width: 100%;
+    height: 100vh;
+    @media (max-width: 720px) {
+        height: 50vh;
+    }
+`
 
 const Box = styled.div`
-    background-color: red;
+    background-color: #002D40;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     max-height: 100%;
-    
-`
-const Text = styled.h3`
-    padding-right:20%;
-    padding-top: 5%;
-    padding-bottom:0px;
-    text-align: right;
-    @media (max-width: 576px) {
-        font-size: 4rem;
+    @media (max-width: 720px) {
+        height: 50vh;
     }
 `
 const Choose = styled.h5`
+    font-family: 'My custom family';
+    color : #FFA644;
     padding-top:0px;
-    padding-right:20%;
+    padding-right:0%;
     padding-bottom:11%;
     text-align: right;
-    @media (max-width: 576px) {
-        font-size: 3rem;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 54%;
+    margin-left: 81%;
+
+    @media (max-width:720px) {
+        margin-left: 74.5%;
     }
 `
 
 const Select =()=> (
     <div>
-        <Link href="/what-l">    
+        <Link href="/what-l">
+        {/* <Bgling>    */}
             <Box>
-                <Text>ทีมพี่ลิง</Text>
+                <Img>
+                <Teamling/>
                 <Choose>เลือก</Choose>  
-                <Ling/>             
+                <Ling/>
+                </Img>             
             </Box>
+            {/* </Bgling> */}
         </Link>
     </div>
 )

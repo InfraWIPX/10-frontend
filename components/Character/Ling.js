@@ -1,6 +1,29 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const Modelling = styled.img`
+    width: 50%;
+    position: absolute;
+    z-index: 0;
+    display: block;
+    margin-left: 3.5%;
+    margin-top: 24%;
+
+    @media (max-width:720px) {
+        width: 43%;
+        margin-top: 8%;
+    }
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    &:hover{
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+`
 
 const Ling = () => (
-    <img src="../../static/image/สำเนาของ hanuman.svg"style={{width:'15%',margin:'0%',marginTop:'-22%',marginLeft:'10%'}}/>
+    <Modelling src="../../static/image/hanuman.svg"/>
 )
 export default Ling
