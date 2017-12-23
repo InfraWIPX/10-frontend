@@ -14,9 +14,10 @@ const Index = () => (
 			<div className="row">
 				<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<center><Logo /></center>
-					<center><Link href="../Character"><a><Button>ไปผจญภัยกัน!</Button></a></Link></center>
+					<center><Link href="/character"><a><Button>ไปผจญภัยกัน!</Button></a></Link></center>
 				</div>
 			</div></div>
 	</Bg>
 )
+
 export default Index
