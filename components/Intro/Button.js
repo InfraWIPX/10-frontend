@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import '../global-style'
 
+
 const Button = styled.button`
     font-family: 'My custom family';
     border 0.2vw solid currentColor;
@@ -8,7 +9,7 @@ const Button = styled.button`
     color: #FFA644;
     font-size: 2em;
     overflow: hidden;
-    padding: 0.5em;
+    padding: 0.2em 1.5em;
     position: relative;
     text-decoration: none;
     transition: .2s transform ease-in-out;
@@ -26,4 +27,6 @@ const Button = styled.button`
     }
 `
 
-export default Button;
+
+
+export default Button
