@@ -28,14 +28,12 @@ const Box = styled.div`
 const Select =()=> (
     <div>
         <Link href="/what-y">
-            {/* <Bgyak> */}
-                <Box>
-                    <Img>
-                        <Teamyak/> 
-                        <Yak/>
-                    </Img>
-                </Box> 
-            {/* </Bgyak>         */}
+            <Box>
+                <Img>
+                    <Teamyak/> 
+                    <Yak/>
+                </Img>
+            </Box> 
         </Link>
     </div>
 )
