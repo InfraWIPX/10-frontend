@@ -18,15 +18,16 @@ const Index = props => (
 		<div className="container-fluid" >
 			<div className="row">
 				<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<center><Logo /></center>
-					<center>
-						<a>
-							<Button onClick={() => setCheck(props.setCheck, props.check)}>ไปผจญภัยกัน!</Button>
-							<MoveToLeft check={props.check}></MoveToLeft>
-						</a>
-				</center>
+					<center><Logo/></center>
 				</div>
-			</div></div>
+				<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<a className="d-flex justify-content-center">
+						<Button onClick={() => setCheck(props.setCheck, props.check)}>ไปผจญภัยกัน!</Button>
+						<MoveToLeft check={props.check}></MoveToLeft>
+					</a>
+				</div>
+			</div>
+		</div>
 	</Bg>
 )
 
