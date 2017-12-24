@@ -2,12 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Modelling = styled.img`
-    width: 50%;
+    width: 38vw;
     position: absolute;
     z-index: 0;
     display: block;
-    margin-left: 3.5%;
-    margin-top: 24%;
+    margin-left: -37%;
+    margin-top: 10%;
     cursor: pointer;
 
     @media (max-width:720px) {
@@ -25,6 +25,6 @@ const Modelling = styled.img`
 `
 
 const Ling = () => (
-    <Modelling src="../../static/image/hanuman.svg"/>
+    <Modelling src="../../static/image/Mongkey.svg"/>
 )
 export default Ling
