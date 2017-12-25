@@ -14,9 +14,8 @@ const state = withState('check', 'setCheck', false)
 
 const setCheck = (callback, data) => {
 	callback(!data)
-	setTimeout(() => Router.push('/character'), 900)
+	setTimeout(() => Router.push('/character'), 300)
 }
-
 
 const Index = (props) => (
 	<Bg>

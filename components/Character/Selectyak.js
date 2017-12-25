@@ -21,7 +21,8 @@ const Box = styled.div`
     cursor: pointer;
     div:hover {
         /* ใส่รูปพื้นหลังผ่าครึ่งตรงนี้ */
-        background-image: url('');
+        background-image: url('../../static/image/Artboardyak.svg');
+        background-size: 100%;
     }
     
     @media (max-width: 720px) {
@@ -35,7 +36,9 @@ const Select =()=> (
             <Box>
                 <Img>
                     <Teamyak/> 
-                    <Yak/>
+                    <div className="d-flex justify-content-end">
+                        <Yak />
+                    </div>
                 </Img>
             </Box> 
         </Link>
