@@ -1,29 +1,28 @@
 import react from 'react'
 import { slide as Menu } from 'react-burger-menu'
 
-class Example extends React.Component {
-  showSettings(event) {
-    event.preventDefault();
-  }
-
+class BurgerMenu extends React.Component {
   render() {
     return (
-
       <div>
-      <nav class="navbar navbar-expand-lg navbar-light">        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-light">        
+        <button className>
+          <span className="navbar-toggler-icon"></span>
         </button>
       </nav>
         <Menu>
-          <a id="home" className="menu-item" href="/">Home</a>
-          <a id="about" className="menu-item" href="/about">About</a>
-          <a id="contact" className="menu-item" href="/contact">Contact</a>
-          <a onClick={this.showSettings} className="menu-item--small" href="">Settings</a>
+          <a className="menu-item" href="#">หน้าแรก</a>
+          <a className="menu-item" href="#">ค่ายของเรา</a>
+          <a className="menu-item" href="#">เหมาะกับใคร</a>
+          <a className="menu-item" href="#">สิ่งที่จะได้เรียนรู้</a>
+          <a className="menu-item" href="#">เวลาและสถานที่</a>
+          <a className="menu-item" href="#">คำถามที่พบบ่อย</a>
+          <a className="menu-item" href="#">ติดต่อสอบถาม</a>
+          <a className="menu-item" href="#">เกม</a>
         </Menu>
       </div>
 
     )
   }
 }
-export default Example
+export default BurgerMenu
