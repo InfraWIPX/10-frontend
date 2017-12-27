@@ -3,9 +3,9 @@ import React from 'react'
 import HomeIntro from '../components/Intro/HomeIntro'
 
 const Index = () => (
-	<div>
+	<section>
 		<HomeIntro />
-	</div>
+	</section>
 )
 
 export default Index
