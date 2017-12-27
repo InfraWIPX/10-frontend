@@ -35,10 +35,10 @@ const Box = styled.div`
 
 const Select =()=> (
     <div>
-        
+
             <Box>
-                <Img>
-                    <Teamling/>
+                <Img>                    
+                    <Teamling/>                    
                     <Ling/>
                 </Img>             
             </Box>
