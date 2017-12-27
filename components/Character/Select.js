@@ -43,7 +43,6 @@ const Select = props => (
                 <Selectyak />
               </Fit>
             </Div>
-
           </div>
         </RightToLeft>
     </MoveDown>

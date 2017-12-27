@@ -1,9 +1,9 @@
 import React from 'react'
-import OurCamp from '../components/OurCamp/HomeOurCamp'
+import HomeLearner from '../components/WhatLearner/HomeLearner'
 
 const WhatMonkey = () => (
     <section>
-        <OurCamp />              
+        <HomeLearner />              
     </section>
 )
 

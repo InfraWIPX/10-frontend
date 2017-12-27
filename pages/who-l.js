@@ -1,9 +1,9 @@
 import React from 'react'
-import OurCamp from '../components/OurCamp/HomeOurCamp'
+import Who from '../components/Who/HomeWho'
 
 const WhatMonkey = () => (
     <section>
-        <OurCamp />              
+        <Who />              
     </section>
 )
 
