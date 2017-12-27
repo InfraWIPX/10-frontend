@@ -3,7 +3,7 @@ import OurCamp from '../components/OurCamp/HomeOurCamp'
 
 const WhatMonkey = () => (
     <section>
-        <OurCamp />        
+        <OurCamp />              
     </section>
 )
 

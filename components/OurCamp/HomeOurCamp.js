@@ -6,6 +6,7 @@ import Story from './StoryOurCamp'
 import Button from './ButtonCon'
 import BgStory from '../Content/BgStory'
 import Footer from '../Content/Footer'
+import Menu from '../Content/Burger'
 
 
 const Div = styled.div`
@@ -20,6 +21,7 @@ const HiddenRespone = styled.div`
 
 const HomeOurCamp = () => (
     <BgStory>
+        <Menu/>        
         <div className="container">
             <Div className="d-flex flex-column">
                 <div className="d-flex p-2 row justify-content-center">
