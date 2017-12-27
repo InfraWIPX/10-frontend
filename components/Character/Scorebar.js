@@ -8,6 +8,7 @@ const SelectChar = styled.h1`
     font-family: 'Niramit';
     color : #FFA644;
     font-size: 5em;
+    font-weight: bold;
 
     @media (max-width:567px) {
         font-size: 2em;
