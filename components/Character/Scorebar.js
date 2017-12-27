@@ -31,8 +31,8 @@ const Scorebar = () => (
         <SelectChar className="d-flex justify-content-center">เลือกตัวละคร</SelectChar>
         <div className="d-flex flex-row justify-content-center">
             <Score className="container progress wide align-self-center"> 
-                <Scoreyak/>
                 <Scoreling/>
+                <Scoreyak/>
             </Score>
         </div>
     </Head>
