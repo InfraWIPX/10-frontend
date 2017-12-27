@@ -2,15 +2,10 @@
 import React from 'react'
 import HomeIntro from '../components/Intro/HomeIntro'
 
-
-
 const Index = () => (
-	<div>
-	
-	<HomeIntro/>
-	
-	</div>
-	
+	<section>
+		<HomeIntro />
+	</section>
 )
 
 export default Index

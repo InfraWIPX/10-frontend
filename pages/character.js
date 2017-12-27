@@ -2,8 +2,8 @@ import React from 'react'
 import Select from '../components/Character/Select'
 
 const character = () => (
-  <div>
-    <Select/>
-    </div>
+  <section>
+    <Select />
+  </section>
 )
 export default character
