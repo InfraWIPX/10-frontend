@@ -1,5 +1,5 @@
 import react from 'react'
-import Bg from '../Bg'
+import Bg from '../Content/BgStory'
 import NavOurCamp from '../Content/NavOurCamp'
 import ConWho from '../Who/ContentWho'
 

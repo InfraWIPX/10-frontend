@@ -1,6 +1,6 @@
 import react from 'react'
 import NavOurCamp from '../Content/NavOurCamp';
-import Bg from '../Bg';
+import Bg from '../Content/BgStory';
 import ContentLearner from '../WhatLearner/ContentLearner'
 
 const HomeLearner = () => (

@@ -1,12 +1,13 @@
 import react from 'react'
-import Bg from '../Bg'
+
 import Content from '../OurCamp/ContentOurCamp'
 import NavOurCamp from '../Content/NavOurCamp'
 import Button from '../OurCamp/ButtonCon'
 import RegisBut from '../Content/RegisBut'
+import BgStory from '../Content/BgStory'
 
 const HomeOurCamp = () => (
-    <Bg>
+    <BgStory>
         <NavOurCamp />
         <div className="container">
             <div className="row">
@@ -17,6 +18,6 @@ const HomeOurCamp = () => (
         </div>
         <Button />
         <RegisBut />
-    </Bg>
+    </BgStory>
 )
 export default HomeOurCamp
