@@ -21,6 +21,10 @@ const Div = styled.div`
 const Fit = styled.div`
   padding-right: 0px;
   padding-left: 0px;
+  max-height: 100%;
+  @media (max-width: 992px) {
+	  max-height: 50%;
+  }
 `
 const go = withState('go', 'setGo', false)
 
