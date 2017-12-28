@@ -2,17 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Textyak = styled.img`
-    width: 20vw;
-    display: flex;
-    position: absolute;
-    z-index: 2;
-    margin-top: 30%;
-    margin-left: 10%;    
+    margin-top: 50%;
 `
 
 const Teamyak = () => (
     
-    <Textyak src="../../static/image/Teamyak.png"/>    
+    <Textyak className="img-fluid" src="../../static/image/Teamyak.png"/>    
     
 )
 

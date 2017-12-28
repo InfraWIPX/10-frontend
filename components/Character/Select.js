@@ -20,6 +20,10 @@ const Div = styled.div`
 const Fit = styled.div`
   padding-right: 0px;
   padding-left: 0px;
+  max-height: 100%;
+  @media (max-width: 992px) {
+	  max-height: 50%;
+  }
 `
 const go = withState('go', 'setGo', false)
 
@@ -30,24 +34,23 @@ const setGo = (callback, data) => (
 
 const Select = props => (
 
-  <section>
-    <MoveDown go={props.go}>
-        <RightToLeft check={!props.check}>
-          <Scorebar />
-          <div className="container-fluid">
-            <Div className="row">
-              <Fit onClick={() => setGo(props.setGo, props.go)} className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <Selectling />
-              </Fit>
-              <Fit className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <Selectyak />
-              </Fit>
-            </Div>
-          </div>
-        </RightToLeft>
-    </MoveDown>
-  </section>
-
+  	<section>
+		<MoveDown go={props.go}>
+			<RightToLeft check={!props.check}>
+				<Scorebar />
+				<div className="container-fluid">
+					<Div className="row">
+						<Fit onClick={() => setGo(props.setGo, props.go)} className="col-lg-6 col-sm-12">
+							<Selectling />
+						</Fit>
+						<Fit className="col-lg-6 col-sm-12">
+							<Selectyak />
+						</Fit>
+					</Div>
+				</div>
+			</RightToLeft>
+		</MoveDown>
+  	</section>
 )
 
 const selectcompose = compose(go)(Select)
