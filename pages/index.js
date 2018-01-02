@@ -1,10 +1,10 @@
 // นี่คือหน้า Home นะ
 import React from 'react'
-import HomeIntro from '../components/Intro/HomeIntro'
+import Intro from '../components/Intro/index'
 
 const Index = () => (
 	<section>
-		<HomeIntro />
+		<Intro/>
 	</section>
 )
 
