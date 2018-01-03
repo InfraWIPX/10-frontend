@@ -13,7 +13,6 @@ import Bg from '../BgIntro'
 import MoveDown from '../PageTransition/MoveDown'
 import MoveToLeft from '../PageTransition/MoveToLeft'
 
-
 const Div = styled.div`
   width: 100vw;
   height: 100vh;
