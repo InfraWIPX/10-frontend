@@ -1,10 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 13597c9590e9a9d1fa6eb978e9fdbc44866c5f23
 const ImgBox = styled.div`
     padding: 0px;
 `
