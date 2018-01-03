@@ -1,6 +1,6 @@
 // นี่คือหน้า Home นะ
 import React from 'react'
-import Intro from '../components/Intro/index'
+import Intro from '../components/Intro/'
 
 const Index = () => (
 	<section>
