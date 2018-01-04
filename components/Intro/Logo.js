@@ -10,9 +10,9 @@ const Wip = styled.img`
         margin-top: 15%;
     }
 `
-
 const Logo =()=> (
     <Wip src="../../static/image/LOGO-TH.svg"/>
+    
 )
 
 export default Logo;

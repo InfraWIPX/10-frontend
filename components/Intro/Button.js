@@ -5,11 +5,11 @@ import '../global-style'
 const Button = styled.button`
     font-family: 'Niramit';
     border: 0.2vw solid currentColor;
-    border-radius: 3rem;
+    border-radius: 2rem;
     color: #FFA644;
     font-size: 2em;
     overflow: hidden;
-    padding: 0.5em 0.1em;
+    padding: 0.1em 0.1em;
     position: relative;
     text-decoration: none;
     transition: .2s transform ease-in-out;
@@ -18,7 +18,6 @@ const Button = styled.button`
     cursor: pointer;
     width: 15%;
     margin-top: 1%;
-
     &:hover{
         border: 0.2vw solid transparent;
         color: #002d40;
@@ -26,6 +25,11 @@ const Button = styled.button`
         background-color:#FFA644;
         ;
         
+    }
+    @media(max-width: 720px){
+        font-size: 1.5em;
+        padding: 0.2em 0.1em;
+        margin-top: 2%;
     }
 `
 export default Button
