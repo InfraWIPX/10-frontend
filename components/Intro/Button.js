@@ -8,15 +8,13 @@ const Button = styled.button`
     border-radius: 3rem;
     color: #FFA644;
     font-size: 1.7em;
+    position: relative;
     overflow: hidden;
     padding: 0.5em 1.5em;
-    position: relative;
     text-decoration: none;
     transition: .2s transform ease-in-out;
-    z-index: 0;
     background-color: transparent;
     cursor: pointer;
-    margin-top: 1%;
 
     &:hover{
         border: 0.2vw solid transparent;
@@ -26,5 +24,6 @@ const Button = styled.button`
         ;
         
     }
+    margin-top: 3%;
 `
 export default Button
