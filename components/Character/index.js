@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import { compose, withState } from 'recompose';
 import ReactTimeOut from 'react-timeout'
 import Router from 'next/router'
-
 import Selectling from './Selectling'
 import Selectyak from './Selectyak'
 import RightToLeft from '../PageTransition/RightToLeft'
@@ -29,7 +28,7 @@ const go = withState('go', 'setGo', false)
 
 const setGo = (callback, data) => (
   callback(!data),
-  setTimeout( () => Router.push('/what-l'), 700)
+  setTimeout( () => Router.push('/singlepage-l'), 700)
 )
 
 const Select = (props) => (

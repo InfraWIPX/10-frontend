@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const LgSIT = styled.img`
 width: 8%;
 margin-top: 0%;
-
+position: relative;
 @media(max-width: 720px){
     width: 20%;
     margin-top: 0%;

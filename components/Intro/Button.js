@@ -7,13 +7,12 @@ const Button = styled.button`
     border: 0.2vw solid currentColor;
     border-radius: 2rem;
     color: #FFA644;
-    font-size: 2em;
-    overflow: hidden;
-    padding: 0.1em 0.1em;
+    font-size: 1.7em;
     position: relative;
+    overflow: hidden;
+    padding: 0.5em 1.5em;
     text-decoration: none;
     transition: .2s transform ease-in-out;
-    z-index: 0;
     background-color: transparent;
     cursor: pointer;
     width: 15%;
@@ -29,7 +28,9 @@ const Button = styled.button`
     @media(max-width: 720px){
         font-size: 1.5em;
         padding: 0.2em 0.1em;
-        margin-top: 2%;
+        margin-top: 3%;
+        width: 40%;
     }
+    
 `
 export default Button

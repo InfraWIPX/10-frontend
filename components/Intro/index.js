@@ -11,6 +11,7 @@ import Button from './Button'
 import BgIntro from '../BgIntro'
 import Cloud from './Cloud'
 import LogoSIT from './LogoSIT'
+import Background from './Background'
 
 const state = withState('check', 'setCheck', false)
 
@@ -18,6 +19,13 @@ const setCheck = (callback, data) => {
 	callback(!data)
 	setTimeout(() => Router.push('/character'), 1000)
 }
+const Position = styled.div`
+	width: 100vw;
+	margin-top: 50vh;
+	position: relative;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+`
 
 const Index = (props) => (
 	<BgIntro>
@@ -26,15 +34,18 @@ const Index = (props) => (
 			  <Cloud/><Cloud/>
 				<div className="row">
 					<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<center><Logo /></center>
-						<center><LogoSIT /></center>
-						<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<a className="d-flex justify-content-center">
-								<Button onClick={() => setCheck(props.setCheck, props.check)}>
-									ไปผจญภัยกัน!
+						<Background/>
+						<Position>
+							<Logo />
+							<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<a className="d-flex justify-content-center">
+									<Button onClick={() => setCheck(props.setCheck, props.check)}>
+										ไปผจญภัยกัน!
 								</Button>
-							</a>
-						</div>
+								</a>
+							</div>
+						</Position>
+						
 					</div>
 				</div>
 			</MoveLeft>

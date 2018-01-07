@@ -5,6 +5,7 @@ const index = () => (
     <section>
         <Who />              
     </section>
+    
 )
 
 export default index
