@@ -1,9 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-
 import BgStory from './BgStory'
 import Footer from './Footer'
-import Menu from './Burger'
+import Navbar  from './Navbar'
 
 
 const Div = styled.div`
@@ -22,8 +21,8 @@ const HiddenRespone = styled.div`
 `
 
 const HomeOurCamp = (props) => (
-    <BgStory id="outer-container">
-        <Menu/>        
+    <BgStory id="outer-container">     
+        <Navbar/>
         <div id="page-wrap" className="container">
             <Div className="d-flex flex-column">
                 <Row className="d-flex p-2 row justify-content-center">
