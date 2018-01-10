@@ -1,10 +1,9 @@
 import React from 'react'
-import Who from '../components/Who/index-L'
-import Nav from '../components/Core/Navbar'
+import Card from '../components/Core/Card'
 
 const WhatMonkey = () => (
 	<section>
-		<Who/>
+		<Card/>
 	</section>
 )
 
