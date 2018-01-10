@@ -22,7 +22,7 @@ const HiddenRespone = styled.div`
 
 const HomeOurCamp = (props) => (
     <BgStory id="outer-container">
-        <Menu/>        
+        <Menu />
         <div id="page-wrap" className="container">
             <Div className="d-flex flex-column">
                 <Row className="d-flex p-2 row justify-content-center">
@@ -30,14 +30,11 @@ const HomeOurCamp = (props) => (
                         {props.img}
                     </HiddenRespone>
                     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <div className="bg-secondary float-left" style={{ width: '100%' }}>
-                        <article>Lorem Ipsum คืออะไร?</article>
-                        <p>{props.text}</p>
+                        <div className="bg-secondary float-left" style={{ width: '100%' }}>
+                            <article>Lorem Ipsum คืออะไร?</article>
+                            <p>{props.text}</p>
+                        </div>
                     </div>
-                    </div>
-                    <HiddenRespone className="col-md-1 col-lg-1">
-                        <p>รอบาร์อยู่เด้อ</p>
-                    </HiddenRespone>
                 </Row>
             </Div>
         </div>
