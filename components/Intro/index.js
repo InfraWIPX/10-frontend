@@ -45,7 +45,6 @@ const Index = (props) => (
 								</a>
 							</div>
 						</Position>
-						
 					</div>
 				</div>
 			</MoveLeft>
