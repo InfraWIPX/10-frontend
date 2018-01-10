@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 import BgStory from './BgStory'
-import Footer from './Footer'
 import Menu from './Burger'
 
 
@@ -40,9 +39,6 @@ const HomeOurCamp = (props) => (
                         <p>รอบาร์อยู่เด้อ</p>
                     </HiddenRespone>
                 </Row>
-                <div className="d-flex mt-auto p-2">
-                    <Footer/>
-                </div>
             </Div>
         </div>
     </BgStory>
