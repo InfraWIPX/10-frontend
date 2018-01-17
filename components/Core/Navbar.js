@@ -20,8 +20,8 @@ const RegisterButton = styled.div`
     position:absolute;
     right: 0;
     background-color: red;
-    width: 300px;
-    height:500px;
+    width: 5em;
+    height: 8em;
 `
 
 const Navbar = () => (
