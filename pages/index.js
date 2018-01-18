@@ -1,6 +1,6 @@
 // นี่คือหน้า Home นะ
 import React from 'react'
-import Intro from '../components/Intro/'
+// import Intro from '../components/Intro/'
 
 import What from '../components/What/index'
 import Who from '../components/Who/index'
@@ -11,9 +11,9 @@ import Navbar from '../components/Core/Navbar'
 const index = () => (
 	<div>
 		<Navbar/>                
-		<section>
+		{/* <section>
 			<Intro />
-		</section>
+		</section> */}
 		<section>        	
 			<What />
 		</section>
