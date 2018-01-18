@@ -7,4 +7,6 @@ RUN cd /node-app && npm install && npm run build
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+ENV NPM_COMMAND=start
+
+CMD ["sh", "-c", "npm run $NPM_COMMAND"]
