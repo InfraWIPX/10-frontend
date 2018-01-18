@@ -8,6 +8,7 @@ import When from '../components/When/index'
 import GameBut from '../components/Core/GameBut'
 import Navbar from '../components/Core/Navbar'
 import FAQs from '../components/FAQs/index'
+import Contact from '../components/์Contact/index'
 
 const index = () => (
 	<div>
@@ -22,14 +23,16 @@ const index = () => (
 			<Who />
 		</section>
 		<section>
+			<When/>
+		</section>
+		<section>
 			<Where/>
 		</section>
 		<section>
-<<<<<<< HEAD
 			<FAQs />
-=======
-			<When/>
->>>>>>> a0d35086737807f272c0d7f384215b97caf098d5
+		</section>
+		<section>
+			<Contact />
 		</section>
 	</div>
 )
