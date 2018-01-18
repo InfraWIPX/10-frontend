@@ -1,7 +1,7 @@
-apiVersion: apps/v1
-kind: ReplicaSet
+apiVersion: v1
+kind: ReplicationController
 metadata:
-  name: frontend
+  name: 10-frontend
   labels:
     app: 10-frontend
     organizer: wipcamp10
@@ -9,9 +9,9 @@ metadata:
 spec:
   replicas: 3
   selector:
-    matchLabels:
-      tier: frontend
-      organizer: wipcamp10
+    app: 10-frontend
+    tier: frontend
+    organizer: wipcamp10
   template:
     metadata:
       labels:
