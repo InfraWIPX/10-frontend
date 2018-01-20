@@ -28,8 +28,14 @@ pipeline {
   }
   post {
     success {
+      steps {
+        sh 'echo success'
+      }
     }
     failure {
+      steps {
+        sh 'echo failure'
+      }
     }
   }
 }
