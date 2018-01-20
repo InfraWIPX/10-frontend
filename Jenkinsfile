@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        commit.createStatus(status: 'pending')
         sh 'sudo docker build . -t 10-frontend'
         sh 'sudo docker tag 10-frontend registry.wip.camp/10-frontend:$BUILD_NUMBER'
         sh 'sudo docker tag 10-frontend registry.wip.camp/10-frontend'
@@ -29,10 +28,8 @@ pipeline {
   }
   post {
     success {
-      commit.createStatus(status: 'success')
     }
     failure {
-      commit.createStatus(status: 'failure')
     }
   }
 }
